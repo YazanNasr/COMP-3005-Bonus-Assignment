@@ -1,0 +1,18 @@
+// employees and their departments
+Employees(EID, Name, Age, DID) = {
+  E1, John, 32, D1
+  E2, Alice, 28, D2
+  E3, Bob, 29, D1
+}
+
+Departments(DID, Department) = {
+  D1, Engineering
+  D2, Finance
+}
+
+Emp(EID, Name, MgrID) = {
+  E1, John, E3
+  E2, Alice, E3
+  E3, Bob, E3
+}
+
